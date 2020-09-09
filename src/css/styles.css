@@ -1,0 +1,45 @@
+body{
+  background: black;
+}
+.submit{
+  margin: 0 auto;
+  width:500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: url("../assets/classroom_400x400.jpg");
+  position: relative;
+}
+
+.overlay{
+  margin: 0 auto;
+  width:500px;
+  height: 500px;
+  border-radius: 50%;
+  position:relative;
+  background-color: rgba(0,0,0,.8);
+  z-index: 2;
+  transform: translate(0%);
+  transition:  .9s;
+}
+.hide {
+  transform: translate(-100%);
+}
+ .names{
+  margin: 0 auto;
+  width:500px;
+  height: 500px;
+  border-radius: 50%;
+  position:relative;
+   background-color: rgba(0,0,0,.8);
+  z-index: 2;
+  /* transform: translate(0%);
+  transition:  .9s;  */
+}
+h1{
+  position:absolute;
+  left:30%;
+  top:40%;
+  text-align: center;
+  color:#fff;
+  font-family: Merienda One;
+}
